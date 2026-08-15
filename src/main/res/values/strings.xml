@@ -1,10 +1,32 @@
 <resources>
     <string name="app_name">DesafioDSM</string>
 
+    <!-- Menú principal -->
     <string name="titulo_menu">Laboratorio DSM</string>
     <string name="subtitulo_menu">Explora las soluciones</string>
 
     <string name="ejercicio_1">📊 Evaluar Promedio</string>
     <string name="ejercicio_2">💰 Proyectar Salario</string>
     <string name="ejercicio_3">🧮 Operar Números</string>
+
+    <!-- Ejercicio 1: Promedio del Estudiante -->
+    <string name="titulo_promedio">Promedio del Estudiante</string>
+    <string name="nombre_estudiante">Nombre del estudiante</string>
+
+    <string name="nota_1">Nota 1</string>
+    <string name="nota_2">Nota 2</string>
+    <string name="nota_3">Nota 3</string>
+    <string name="nota_4">Nota 4</string>
+    <string name="nota_5">Nota 5</string>
+
+    <string name="calcular_promedio">Calcular promedio</string>
+    <string name="regresar">Regresar</string>
+
+    <string name="error_nombre">Ingrese el nombre del estudiante</string>
+    <string name="error_nota">Ingrese una nota válida</string>
+    <string name="error_rango">La nota debe estar entre 0 y 10</string>
+
+    <string name="resultado_promedio">Promedio: %1$s\nEstado: %2$s</string>
+    <string name="aprobado">Aprobado</string>
+    <string name="reprobado">Reprobado</string>
 </resources>
