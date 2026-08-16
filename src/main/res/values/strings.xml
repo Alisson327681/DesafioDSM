@@ -29,4 +29,21 @@
     <string name="resultado_promedio">Promedio: %1$s\nEstado: %2$s</string>
     <string name="aprobado">Aprobado</string>
     <string name="reprobado">Reprobado</string>
+    <string name="titulo_Materia" />
+    <string name="nombre_Alumno">\n</string>
+    <string name="nota_base" />
+    <string name="calcular_nota" />
+
+    <!-- Ejercicio 2: Salrio  -->
+
+    <string name="titulo_salario">Descuentos al Salario</string>
+    <string name="nombre_empleado">Nombre del empleado</string>
+    <string name="salario_base">Salario base</string>
+    <string name="calcular_salario">Calcular salario</string>
+
+    <string name="resultado_salario">Empleado: %1$s\n\nSalario bruto: $%2$s\nRenta: $%3$s\nAFP: $%4$s\nISSS: $%5$s\n\nTotal descuentos: $%6$s\nSalario neto: $%7$s</string>
+
+    <string name="error_nombre_empleado">Ingrese el nombre del empleado</string>
+    <string name="error_salario">Ingrese un salario válido</string>
+    <string name="error_salario_positivo">El salario debe ser mayor que cero</string>
 </resources>

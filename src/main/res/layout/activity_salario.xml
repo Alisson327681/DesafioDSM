@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SalarioActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_general">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_salario"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margen_grande" />
+
+        <EditText
+            android:id="@+id/edtNombreEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_empleado"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSalarioBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/salario_base"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="@dimen/margen_normal" />
+
+        <Button
+            android:id="@+id/btnCalcularSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular_salario"
+            android:layout_marginTop="@dimen/margen_grande" />
+
+        <TextView
+            android:id="@+id/txtResultadoSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="@dimen/margen_normal"
+            android:layout_marginTop="@dimen/margen_grande" />
+
+        <Button
+            android:id="@+id/btnRegresarSalario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regresar"
+            android:layout_marginTop="@dimen/margen_normal" />
+
+    </LinearLayout>
+
+</ScrollView>
