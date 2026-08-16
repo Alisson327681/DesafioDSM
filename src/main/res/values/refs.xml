@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_add" />
+    <drawable name="ic_remove" />
+    <drawable name="ic_multiply" />
+    <drawable name="ic_divide" />
+    <drawable name="ic_power" />
+    <drawable name="ic_sqrt" />
+</resources>

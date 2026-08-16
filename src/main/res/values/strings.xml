@@ -46,4 +46,15 @@
     <string name="error_nombre_empleado">Ingrese el nombre del empleado</string>
     <string name="error_salario">Ingrese un salario válido</string>
     <string name="error_salario_positivo">El salario debe ser mayor que cero</string>
+    <string name="ver_historial" />
+    <string name="titulo_calculadora" />
+    <string name="numero_1" />
+    <string name="numero_2" />
+    <string name="resultado_inicial" />
+    <string name="suma" />
+    <string name="resta" />
+    <string name="multiplicacion" />
+    <string name="division">\n</string>
+    <string name="exponente" />
+    <string name="raiz" />
 </resources>
