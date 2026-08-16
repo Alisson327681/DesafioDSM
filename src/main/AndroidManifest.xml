@@ -29,7 +29,8 @@
         <activity
             android:name=".SalarioActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="MissingClass" />
         <activity
             android:name=".CalculadoraActivity"
             android:exported="false"
