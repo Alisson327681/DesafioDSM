@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.desafiodsm.R
 import java.text.DecimalFormat
 
+/*me esta volviendo loca la carrera, el ciclo va a terminar conmigo*/
 class PromedioActivity : AppCompatActivity() {
 
     private lateinit var edtNombre: EditText
