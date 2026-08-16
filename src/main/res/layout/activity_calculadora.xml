@@ -1,10 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".CalculadoraActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_general">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_calculadora"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margen_grande" />
+
+        <EditText
+            android:id="@+id/edtNumero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_1"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/edtNumero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero_2"
+            android:inputType="numberDecimal|numberSigned"
+            android:layout_marginTop="@dimen/margen_normal" />
+
+        <TextView
+            android:id="@+id/txtResultadoCalculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado_inicial"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:padding="@dimen/margen_normal"
+            android:layout_marginTop="@dimen/margen_grande"
+            android:layout_marginBottom="@dimen/margen_normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSuma"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/suma"
+                android:drawableTop="@drawable/ic_add" />
+
+            <Button
+                android:id="@+id/btnResta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/resta"
+                android:drawableTop="@drawable/ic_remove" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMultiplicacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/multiplicacion"
+                android:drawableTop="@drawable/ic_multiply" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/division"
+                android:drawableTop="@drawable/ic_divide" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnExponente"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/exponente"
+                android:drawableTop="@drawable/ic_power" />
+
+            <Button
+                android:id="@+id/btnRaiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/raiz"
+                android:drawableTop="@drawable/ic_sqrt" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_historial"
+            android:layout_marginTop="@dimen/margen_normal" />
+
+        <Button
+            android:id="@+id/btnRegresarCalculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/regresar"
+            android:layout_marginTop="@dimen/margen_normal" />
+
+    </LinearLayout>
+
+</ScrollView>
