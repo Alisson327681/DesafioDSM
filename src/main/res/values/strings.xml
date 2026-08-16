@@ -20,7 +20,7 @@
     <string name="nota_5">Nota 5</string>
 
     <string name="calcular_promedio">Calcular promedio</string>
-    <string name="regresar">Regresar</string>
+    <string name="atras">Regresar</string>
 
     <string name="error_nombre">Ingrese el nombre del estudiante</string>
     <string name="error_nota">Ingrese una nota válida</string>
@@ -57,4 +57,32 @@
     <string name="division">\n</string>
     <string name="exponente" />
     <string name="raiz" />
+
+    <!-- Ejercicio 3: Calculadora  -->
+
+    <string name="titulo_calcu">Calculadora Básica</string>
+
+    <string name="num_1">Número 1</string>
+    <string name="num_2">Número 2</string>
+
+    <string name="sum">Suma</string>
+    <string name="rst">Resta</string>
+    <string name="mult">Multiplicación</string>
+    <string name="div">División</string>
+    <string name="expo">Exponente</string>
+    <string name="raz">Raíz cuadrada</string>
+
+    <string name="rst_inicial">Resultado: --</string>
+
+    <string name="historial">Ver historial</string>
+    <string name="regresar">Regresar</string>
+
+    <string name="error_numero">Ingrese un número válido</string>
+    <string name="error_division_cero">No se puede dividir entre cero</string>
+    <string name="error_raiz_negativa">No se puede calcular la raíz de un número negativo</string>
+
+    <string name="resultado">Resultado: %1$s</string>
+    <string name="operacion"> %1$s = %2$s</string>
+    <string name="historial_vacio">No hay operaciones guardadas</string>
+
 </resources>

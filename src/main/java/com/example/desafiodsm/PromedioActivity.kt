@@ -10,6 +10,7 @@ import com.example.desafiodsm.R
 import java.text.DecimalFormat
 
 /*me esta volviendo loca la carrera, el ciclo va a terminar conmigo*/
+/*tu haces que yo pierda la cabeza, saquenme de aqui,:(*/
 class PromedioActivity : AppCompatActivity() {
 
     private lateinit var edtNombre: EditText
